@@ -46,16 +46,16 @@
 						<div class="col-md-12">
 							<p class="h4">Hovedsponsorer</p>
 						</div>
-						<div class="col-xs-4">
+						<div class="col-xs-3">
 							<img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://www.sportscamp.dk/wp-content/themes/sportscamp.dk/assets/img/3.png"  alt="SportsCamp hovedsponser" class="img-responsive">
 						</div>
-						<div class="col-xs-4">
+						<div class="col-xs-3">
 							<img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://www.sportscamp.dk/wp-content/themes/sportscamp.dk/assets/img/2.png" alt="SportsCamp hovedsponser" class="img-responsive">
 						</div>
-						<div class="col-xs-4">
+						<div class="col-xs-3">
 							<img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://www.sportscamp.dk/wp-content/themes/sportscamp.dk/assets/img/1.png" alt="SportsCamp hovedsponser" class="img-responsive">
 						</div>
-						<div class="col-xs-4">
+						<div class="col-xs-3">
 							<img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://www.sportscamp.dk/wp-content/themes/sportscamp.dk/assets/img/4.png" alt="SportsCamp hovedsponser" class="img-responsive">
 						</div>
 					</div>
