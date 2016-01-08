@@ -19,6 +19,15 @@
 
  	<?php include 'includes/module-breadcrumbs.php';?>
 
+	<script>
+		$("tr").sort(function(a,b){
+		    return new Date($(a).attr("data-startdate")) > new Date($(b).attr("data-startdate"));
+		}).each(function(){
+		    $("body").prepend(this);
+		})
+	</script>
+
+
  	<section class="module module-primary">
 	 	<div class="container">
 		 	<div class="row">
@@ -49,7 +58,7 @@
 												<?php while ( have_rows('campdates') ) : the_row(); ?>
 
 													<?php if( get_field('visibility') ) { ?>
-														<tr>
+														<tr data-startdate="<?php the_sub_field('startdate'); ?>">
 															<td>
 																<a href="<?php the_permalink(); ?>" class="camp"><?php the_title(); ?></a>
 																<?php wp_reset_postdata(); ?>
