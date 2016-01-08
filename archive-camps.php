@@ -19,15 +19,7 @@
 
  	<?php include 'includes/module-breadcrumbs.php';?>
 
-	<script>
-		$("tr").sort(function(a,b){
-		    return new Date($(a).attr("data-startdate")) > new Date($(b).attr("data-startdate"));
-		}).each(function(){
-		    $("body").prepend(this);
-		})
-	</script>
-
-
+	
  	<section class="module module-primary">
 	 	<div class="container">
 		 	<div class="row">
