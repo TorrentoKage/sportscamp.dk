@@ -26,5 +26,5 @@
 		$("tr").sort(function(a,b){
 		    return new Date($(a).attr("data-startdate")) > new Date($(b).attr("data-startdate"));
 		}).each(function(){
-		    $("body").prepend(this);
+		    $("tbody").prepend(this);
 		})
