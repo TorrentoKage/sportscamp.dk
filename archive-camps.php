@@ -27,6 +27,8 @@
 
 			 	<?php $posts = query_posts(array(
 									'post_type' => 'camps',
+									'meta_key' => 'featured',
+									'orderby' => 'meta_value_num',
 									'order'    => 'ASC'
 								)); ?>
 								<?php if ( have_posts() ) : ?>
