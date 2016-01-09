@@ -28,6 +28,8 @@
 			 	<?php $posts = query_posts(array(
 									'post_type' => 'camps',
 									'order'    => 'ASC'
+									'meta_key'			=> 'start_date',
+									'orderby'			=> 'meta_value_num',
 								)); ?>
 								<?php if ( have_posts() ) : ?>
 
